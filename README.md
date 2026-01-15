@@ -10,6 +10,12 @@ The system treats the database not just as a storage medium, but as the active v
 3. Relational Storage: Every line of every frame is stored as an individual row in a 'frame_library' table.
 4. Playback Loop: The engine executes a continuous loop that performs a SQL UPDATE to synchronize the 'display' table with the next frame index, then SELECTs those rows for terminal rendering.
 
+### Example
+
+Here is a short example of the script in action:
+
+[![asciicast](https://asciinema.org/a/NTTy08pK9vMORE1l.svg)](https://asciinema.org/a/NTTy08pK9vMORE1l)
+
 
 
 ---
